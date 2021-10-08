@@ -1,0 +1,39 @@
+VCLF,,,
+back BOM,,,
+Amount,Designator,Part Type,Properties
+1,,Header 4,package molex-1x4_lock; variant polar_lock
+2,"c13, c14",Electrolytic Capacitor,"package 100 mil [THT, electrolytic]; capacitance 10µF; voltage 6.3V"
+9,"c15, c16, c21, c25, c26, c27, c28, c29, c30",Ceramic Capacitor,"package 0805 [SMD, multilayer]; capacitance 100nF; voltage 6.3V"
+3,"c17, c18, c19",Ceramic Capacitor,"package 0805 [SMD, multilayer]; capacitance 10nF; voltage 6.3V"
+1,c20,Ceramic Capacitor,"package 0805 [SMD, multilayer]; capacitance 820pF; voltage 6.3V"
+1,c22,Ceramic Capacitor,"package 0805 [SMD, multilayer]; capacitance 3.3µF; voltage 6.3V"
+1,c23,Ceramic Capacitor,"package 0805 [SMD, multilayer]; capacitance 2.2µF; voltage 6.3V"
+1,c24,Ceramic Capacitor,"package 0805 [SMD, multilayer]; capacitance 22pF; voltage 6.3V"
+1,d2,Rectifier Diode,package Melf DO-213 AB [SMD]; type Rectifier; part # 1N4001
+1,ic7,SO16,package SO16; true; chip label IC; part # V2044
+1,ic8,SO08,package SO08; true; chip label IC; part # TL071
+1,ic9,SO08,package SO08; true; chip label IC; part # TL072
+2,,Generic female header - 7 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 7; pin spacing 0.1in (2.54mm)"
+1,r24,470k Ω Resistor,package 0805 [SMD]; tolerance ±1%; resistance 470kΩ
+1,r26,1k Ω Resistor tempco,package THT; tolerance ±5%; bands 4; resistance 1kΩ; pin spacing 400 mil; part # tempco
+8,"r27-r30, r34, r41-r43",100k Ω Resistor,package 0805 [SMD]; tolerance ±5%; resistance 100kΩ
+1,r32,4.7k Ω Resistor,package 0805 [SMD]; tolerance ±5%; resistance 4.7kΩ
+1,r33,33k Ω Resistor,package 0805 [SMD]; tolerance ±5%; resistance 33kΩ
+2,"r35, r40",10k Ω Resistor,package 0805 [SMD]; tolerance ±5%; resistance 10kΩ
+1,r37,1k Ω Resistor,package 0805 [SMD]; tolerance ±5%; resistance 1kΩ
+1,r39,27k Ω Resistor,package 0805 [SMD]; tolerance ±5%; resistance 27kΩ
+1,r44,47k Ω Resistor,package 0805 [SMD]; tolerance ±5%; resistance 47kΩ
+2,"r46, r47",220 Ω Resistor,package 0805 [SMD]; tolerance ±1%; resistance 220Ω
+2,"vr3, vr4",Trimpot 3362P,package 3362P; variant variant 2; part # 100k
+,,,
+Front bom,,,
+Amount,Designator,Part Type,Properties
+3,"FREQ, RES, VOLUME",Rotary Potentiometer (Small),package THT; size Rotary - 9mm; track Linear; type Rotary Shaft Potentiometer; maximum resistance 100kΩ; part # FREQ POT
+2,,Generic female header - 7 pins,"package THT; hole size 1.0mm,0.508mm; row single; form ♀ (female); pins 7; pin spacing 0.1in (2.54mm)"
+2,banana black,,
+2,banana blue,,
+8,machine screw,6mm,
+2,standoff female - female,10mm,M3
+2,standoff female - female,11mm,M3
+2,standoff female - male,11mm,M3
+3,knobs,,
