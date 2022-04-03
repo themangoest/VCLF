@@ -20,3 +20,5 @@ When Resonance is maximized, a sine wave is output by self-oscillation.
 
 Since the audio voltage level that V2044 can handle is small, it is necessary to make it sufficiently small by dividing the voltage. Adjust the volume and cutoff frequency offsets with two trimmers.
 
+DEMO VIDEO:
+https://youtu.be/6yaxDQPW7yU
